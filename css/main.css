@@ -14,7 +14,7 @@
   --to-white: #f3f3f3;
   /*https://www.canva.com/colors/color-palettes/sweet-toppings/*/
   --logo: #b80454;
-  --red: #b175ff;
+  --purple: #b175ff;
 }
 
 .container-8 {
@@ -45,12 +45,12 @@ header {
   padding: 0;
   margin: 0;
   background: var(--white);
-  border-bottom: 2px solid var(--red);
+  border-bottom: 2px solid var(--purple);
 }
 
 .menu {
   display: none;
-  color: var(--red);
+  color: var(--purple);
 }
 
 .logo {
@@ -62,7 +62,7 @@ header {
 .logo a {
   text-decoration: none;
   font-size: 29px;
-  color: var(--red);
+  color: var(--purple);
   font-family: "Viga", sans-serif;
 }
 
@@ -94,7 +94,11 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--red);
+  color: var(--purple);
+}
+
+nav a:active {
+  color: chartreuse;
 }
 
 .login {
@@ -120,7 +124,7 @@ nav a:hover {
 }
 
 .login-button a:hover {
-  color: var(--red);
+  color: var(--purple);
 }
 
 /*   MAIN   */
@@ -144,7 +148,7 @@ main {
 }
 
 .info a:hover {
-  color: var(--red);
+  color: var(--purple);
 }
 
 .top-img {
@@ -180,7 +184,7 @@ main {
 }
 
 .source:hover {
-  color: var(--red);
+  color: var(--purple);
 }
 
 /* RIGHT SIDE  */
@@ -199,7 +203,7 @@ aside {
 .info {
   text-align: center;
   box-sizing: border-box;
-  border-bottom: 2px solid var(--red);
+  border-bottom: 2px solid var(--purple);
 }
 
 .info h2 {
@@ -235,7 +239,7 @@ aside {
 
 .profile h2 {
   font-size: 1.8em;
-  color: var(--red);
+  color: var(--purple);
   padding: 10px;
   margin: 0 10px;
 }
@@ -268,7 +272,7 @@ aside {
 
 footer {
   text-align: center;
-  border-top: 2px solid var(--red);
+  border-top: 2px solid var(--purple);
   margin-top: 10px;
   padding: 10px;
 }
@@ -306,7 +310,7 @@ footer h3 {
     width: 100%;
     margin: 60px 0;
     position: absolute;
-    background: var(--red);
+    background: var(--purple);
     height: auto;
   }
 
