@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap"); /* font-family: 'Acme', sans-serif;*/
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  /*
+    link pallete https://www.color-hex.com/color-palette/45494
+    */
+  --white: #ffff;
+  --to-black: #1b1b1b;
+  --to-white: #f3f3f3;
+  /*https://www.canva.com/colors/color-palettes/sweet-toppings/*/
+  --logo: #b80454;
+  --red: #b175ff;
+}
+
+.container-8 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-10 {
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background: var(--white);
+  border-bottom: 2px solid var(--red);
+}
+
+.menu {
+  display: none;
+  color: var(--red);
+}
+
+.logo {
+  margin: 10px;
+  float: left;
+  text-emphasis: styke;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--red);
+  font-family: "Viga", sans-serif;
+}
+
+nav {
+  float: left;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  margin: 20px 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  margin: 10px 0 10px 10px;
+  padding: 14px;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--to-black);
+}
+
+nav a:hover {
+  color: var(--red);
+}
+
+.login {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  float: right;
+}
+
+.login-button {
+  background: var(--white);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.login-button a {
+  color: var(--to-black);
+  font-size: 16px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.login-button a:hover {
+  color: var(--red);
+}
+
+/*   MAIN   */
+
+main {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px;
+}
+#content {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+.tittle {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+.info a:hover {
+  color: var(--red);
+}
+
+.top-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text-article {
+  margin: 10px 0;
+  padding: 10px;
+  text-align: left;
+}
+
+.text-article strong {
+  font-size: 24px;
+}
+
+.text-article p {
+  font-size: 16px;
+}
+
+.source {
+  color: midnightblue;
+}
+
+.source:hover {
+  color: var(--red);
+}
+
+/* RIGHT SIDE  */
+
+aside {
+  float: right;
+  width: 30%;
+  padding: 0 10px 10px 20px;
+}
+
+.article {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--red);
+}
+
+.info h2 {
+  color: var(--to-black);
+  margin: 0;
+  padding: 10px;
+}
+
+.box-info {
+  text-align: center;
+}
+
+.logo-info {
+  margin: 10px;
+  padding: 10px;
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.logo-shop {
+  margin: 10px;
+  padding: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*     PROFILE     */
+
+.profile {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.profile h2 {
+  font-size: 1.8em;
+  color: var(--red);
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.profile-img {
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  max-height: 150px;
+}
+
+.show-profile {
+  text-align: left;
+}
+
+.card-profile {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.show-profile strong,
+.show-profile p {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*  FOOTER  */
+
+footer {
+  text-align: center;
+  border-top: 2px solid var(--red);
+  margin-top: 10px;
+  padding: 10px;
+}
+
+footer h3 {
+  margin: 0;
+  padding: 5px;
+}
+
+/*   media    */
+
+@media screen and (max-width: 1200px) {
+  nav {
+    margin: 0;
+  }
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+  .card-profile {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-8 {
+    width: 100%;
+    margin: 0;
+  }
+  nav {
+    display: none;
+    width: 100%;
+    margin: 60px 0;
+    position: absolute;
+    background: var(--red);
+    height: auto;
+  }
+
+  nav a {
+    color: var(--white);
+  }
+
+  nav a:hover {
+    font-weight: 800;
+    color: var(--white);
+  }
+
+  .menu {
+    display: block;
+    float: right;
+    font-size: 24px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .active {
+    display: block;
+  }
+
+  p,
+  .info,
+  .info a {
+    font-size: 14px;
+  }
+
+  .top-img {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  main {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .tittle {
+    font-size: 2.5em;
+  }
+  .top-img {
+    padding: 0;
+  }
+  .login {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tittle {
+    font-size: 2em;
+  }
+
+  .logo-info {
+    max-width: 150px;
+    height: 100px;
+    margin: 0;
+  }
+}
