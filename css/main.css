@@ -147,6 +147,12 @@ main {
   font-weight: 800;
 }
 
+.tittle-btn {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #b175ff;
+}
+
 .info a:hover {
   color: var(--purple);
 }
@@ -213,7 +219,7 @@ aside {
 }
 
 .btn {
-  width: 210px;
+  width: 300px;
   background-color: cyan;
   margin: auto;
   border-radius: 27px;
@@ -221,7 +227,8 @@ aside {
 }
 
 .btn:hover {
-  background-color: aquamarine;
+  background-color: var(--logo);
+  color: #b175ff;
 }
 
 .btn h2 {
